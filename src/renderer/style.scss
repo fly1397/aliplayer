@@ -1,0 +1,17 @@
+body {
+    color: #b7b7b7;
+    background-color: transparent;
+    overflow: hidden;
+}
+#app {
+    .ant-layout {
+        background: none;
+    }
+    & > section.ant-layout {
+        display: flex;
+        background-color: rgba(47,50,54,.95);
+        color: #b7b7b7;
+        height: 100vh;
+    }
+    
+}
